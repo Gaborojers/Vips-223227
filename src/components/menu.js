@@ -1,29 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
+import Select from './pageselector';
 import styles from '../styles/ejemplo.module.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Head from 'next/head';
-
 
 function Index() {
   return ( 
-    <>
-    <Head>
-        <title>Disfruta de Nuestros Restaurantes Vips cerca de ti | Ordena en línea</title>
-        <link rel="icon" href="https://vips.com.mx/images/logo_vips.svg" />
-      </Head>
-      
-
     <div className={`${styles.pagina}`}>
       <header className={styles.header}>
         <div className={styles.contenedor}>
-          <Link href={"/"}>
+        <Link href="/">
             <img src="https://vips.com.mx/images/logo_vips.svg" className={styles.logos} />
           </Link>
           <ul className={styles.listaDesordenada}>
             <li>
-            <Link href="/menu">MENÚ</Link>
+              <Link href={"./menu."}>MENÚ</Link>
             </li>
             <li>
               <a href="https://vips.com.mx/restaurantes">RESTAURANTES</a>
@@ -44,19 +36,22 @@ function Index() {
       <div className={styles.carouselContainer}>
       <Carousel autoPlay={true} infiniteLoop={true} interval={3000}>
       <div>
-        <Link href={"https://vips.com.mx/terminosycondiciones#chiles-nogada-2x1"}><img src="https://vips.com.mx/images/2023/banners/Banner_nogada_desktop.jpg" alt="Imagen 1" /></Link>
+        <img src="https://vips.com.mx/images/2023/banners/Banner_clasicos_patrios_desktop.jpg" alt="Imagen 1" />
       </div>
       <div>
-        <Link href="/clasicos"><img src="https://vips.com.mx/images/2023/banners/Banner_familia_clasicos_desktop_sopa.jpg" alt="Imagen 2" /></Link>
+        <img src="https://vips.com.mx/images/2023/banners/Banner_festejando_mexico_desktop.jpg" alt="Imagen 2" />
       </div>
       <div>
-        <Link href="/festejo"><img src="https://vips.com.mx/images/2023/banners/Banner_pan_muerto_desktop_noprecios.jpg" alt="Imagen 3" /></Link>
+        <img src="https://vips.com.mx/images/2023/banners/Banner_nogada_desktop.jpg" alt="Imagen 3" />
       </div>
       <div>
-      <img src="https://vips.com.mx/images/2023/banners/Banner_mdd_desktop_comidas.jpg" alt="Imagen 4" />
+        <img src="https://vips.com.mx/images/2023/banners/banner_chilaquiles_desktop.jpg" alt="Imagen 4" />
       </div>
       <div>
-      <img src="https://vips.com.mx/images/2022/banners/banner_basuracero_desktop2.jpg" alt="Imagen 5" />
+      <img src="https://vips.com.mx/images/2023/banners/Banner_mdd_desktop_comidas.jpg" alt="Imagen 5" />
+      </div>
+      <div>
+      <img src="https://vips.com.mx/images/2022/banners/banner_basuracero_desktop2.jpg" alt="Imagen 6" />
       </div>
       </Carousel>
       </div>
@@ -64,10 +59,11 @@ function Index() {
       <div className={styles.burrito}>
             <img src='https://vips.com.mx/images/foto_enchiladas2.jpg'></img>
         </div>
-            <div className={styles.pedidos2}>
+        <div className={styles.pedidos}>
             <img src="https://vips.com.mx/images/agregadorestextsd.png" alt="" />
-            <Link href="/pedidos" className={styles.orden}>Ordena aquí</Link>
-            </div>
+            <a href="./pedidos.html"><button className={styles.orden}>Ordena aquí</button></a>
+        </div>
+
         <footer className={styles.footer}>
             <div className={styles.footer_images}>
                 <img src="https://vips.com.mx/images/logo_vips.svg" alt="Imagen izquierda" />
@@ -112,9 +108,7 @@ function Index() {
         </footer>
         
     </div>
-    </>
-  );  
+  );
 }
-
 
 export default Index;

@@ -1,0 +1,14 @@
+
+[
+    {
+      "id": 1,
+      "nombre": "Ejemplo 1",
+      "descripcion": "Descripción del ejemplo 1"
+    },
+    {
+      "id": 2,
+      "nombre": "Ejemplo 2",
+      "descripcion": "Descripción del ejemplo 2"
+    }
+  ]
+    

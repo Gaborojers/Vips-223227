@@ -1,0 +1,353 @@
+.contenedor{
+    background-color: red;
+    width: 1950px;
+    right: -5px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.pagina {
+    height: 100vh; /* Establece un alto mínimo del 100% del alto de la ventana */
+    display: flex; /* Para asegurarse de que ocupe todo el alto si el contenido no es suficiente */
+    flex-direction: column; /* Para alinear el contenido de arriba a abajo */
+}  
+
+.header{
+    height: 200px;
+}
+
+.logos{
+    position: relative;
+    left: 250px;
+    top: 3px;
+    width: 90px;
+}
+
+/* ejemplo.module.css */
+
+/* Estilo para la lista desordenada */
+.listaDesordenada {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    position: relative;
+    left: 360px;
+    top: -45px;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  .listaDesordenada li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  .listaDesordenada li a {
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-weight: bold; /* Estilo de fuente en negrita */
+  }
+
+.search_container {
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    position: relative;
+    left: 1200px;
+  }
+  
+  .mySearchBar {
+    padding: 10px 30px 10px 10px; /* Ajusta los valores de padding según tu diseño */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .search_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888; /* Cambia el color del icono según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+  }
+
+  .boton{
+    background-color: rebeccapurple;
+    border-radius: 7px;
+    position: relative;
+    top: -80px;
+    width: 150px;
+    left: 1250px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.instagram{
+    position: relative;
+    width: 50px;
+    left: 1300px;
+    top: -70px;
+}
+
+/* Estilos para el contenedor del carrusel */
+.carouselContainer {
+    top: -125px; /* Margen superior para ajustar la posición vertical */
+    text-align: center; /* Centrar horizontalmente el carrusel */
+    position: relative;
+  }
+  
+.burrito{
+    top: -205px;
+    position: relative;
+    left: 1px;
+}
+
+.burrito img{
+    width: 1340px;
+    height: 542px;
+}
+
+.pedidos{
+    background-color: crimson;
+    position: relative;
+    left: 1348px;
+    width: 547px;
+    top: -750px;
+    height: -100px;
+}
+
+.pedidos img{
+    width: 350px;
+    position: relative;
+    left: 100px;
+    height: 300px;
+}
+
+.orden {
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid white;       /* Bordes blancos */
+    border-radius: 10px;           /* Esquinas redondeadas */
+    color: white;                   /* Color de texto blanco */
+    padding: 10px 20px;             /* Espaciado interno (ajusta según sea necesario) */
+    cursor: pointer;               /* Cambia el cursor al pasar por encima */
+    width: 240px;
+    top: 30px;
+    font-size: 24px;
+    right: 155px;
+    position: relative;
+  }
+
+.footer {
+    background-color: #484848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: -120px;
+    position: relative;
+    border: 1px solid black;
+    width: 1963px;
+    right: 10px;
+    height: 250px;
+}
+
+.footer_images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_images img {
+    width: 100px;
+    height: auto;
+    left: 350px;
+    position: relative;
+}
+
+.footer_content {
+    top: -100px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.footer_content2 {
+    top: -265px;
+    left: 300px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.redes img{
+    width: 25px;
+    height: auto;
+}
+
+.footer p{
+    text-align: justify;
+    position: relative;
+    top: -250px;
+    width: 1000px;
+    left: 450px;
+}
+
+.h1{
+    position: relative;
+    top: 70px;
+    left: 120px;
+    font-size: 26px;
+    width: 700px;
+}
+
+.banner{
+    top: 100px;
+    position: relative;
+    border-radius: 5%; /* Esto redondeará completamente la imagen */
+    left: 75px;
+}
+
+.frase{
+    top: 130px;
+    position: relative;
+    left: 270px;
+}
+
+.pedidos{
+    top: 200px;
+    position: relative;
+    left: 130px;
+    background-color: transparent;
+    width: 600px;
+}
+
+.pedidos img{
+    height: auto;
+    width: 100px;
+    padding: 15px;
+}
+
+.phonedelivery {
+    padding: 15px;
+    border: 2px solid #f04b68;
+    border-radius: 10px;
+    min-width: 280px;
+    margin: 0 auto;
+    width: 25%;
+    position: relative;
+    left: 450px;
+    top: -600px;
+    transition: .35s all ease;
+    margin-top: 35px;
+}
+
+.iconphone {
+    width: 40px;
+    position: relative;
+    left: 210px;
+}
+
+.linkdelivery {
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    left: 140px;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: .35s all ease;
+    background: #ea0029;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.cobertura{
+    position: relative;
+    left: 1300px;
+    top: -600px;
+    width: 250px;
+}
+
+.cpdom {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: none;
+    max-width: 200px;
+    display: inline-block;
+    background: url(/img/svg/placeholder.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 40px;
+    font-family: "Quicksand";
+    top: -550px;
+    left: 1300px;
+    position: relative;
+}
+
+.link{
+    width: 300px;
+}
+
+.sendbtncp {
+    display: inline-block;
+    width: 100%;
+    background-color: #8c8c8c;
+    color: #fff;
+    max-width: 250px;
+    position: relative;
+    left: 1273px;
+    top: -550px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    opacity: .7;
+    cursor: not-allowed;
+    font-size: .9rem;
+}
+
+.boton{
+    background-color: rebeccapurple;
+    border-radius: 7px;
+    position: relative;
+    top: -145px;
+    width: 150px;
+    left: 1333px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .mySearchBar {
+    padding: 10px 30px 10px 10px; /* Ajusta los valores de padding según tu diseño */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888; /* Cambia el color del icono según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+  }

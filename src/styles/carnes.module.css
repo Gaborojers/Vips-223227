@@ -1,0 +1,667 @@
+.contenedor{
+    background-color: red;
+    width: 1950px;
+    right: -5px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.pagina {
+    height: 100vh; /* Establece un alto mínimo del 100% del alto de la ventana */
+    display: flex; /* Para asegurarse de que ocupe todo el alto si el contenido no es suficiente */
+    flex-direction: column; /* Para alinear el contenido de arriba a abajo */
+}  
+
+.header{
+    height: 200px;
+}
+
+.logos{
+    position: relative;
+    left: 250px;
+    top: 3px;
+    width: 90px;
+}
+
+/* ejemplo.module.css */
+
+/* Estilo para la lista desordenada */
+.listaDesordenada {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    position: relative;
+    left: 360px;
+    top: -45px;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  .listaDesordenada li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  .listaDesordenada li a {
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-weight: bold; /* Estilo de fuente en negrita */
+  }
+
+  .search_container {
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    position: relative;
+    left: 1200px;
+  }
+  
+  .mySearchBar {
+    padding: 10px 30px 10px 10px; /* Ajusta los valores de padding según tu diseño */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .search_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888; /* Cambia el color del icono según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+  }
+
+  .boton{
+    background-color: rebeccapurple;
+    border-radius: 7px;
+    position: relative;
+    top: -80px;
+    width: 150px;
+    left: 1250px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.instagram{
+    position: relative;
+    width: 50px;
+    left: 1300px;
+    top: -70px;
+}
+
+.footer {
+    background-color: #484848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: 420px;
+    position: relative;
+    border: 1px solid black;
+    width: 1963px;
+    right: 10px;
+    height: 250px;
+}
+
+.footer_images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_images img {
+    width: 100px;
+    height: auto;
+    left: 350px;
+    position: relative;
+}
+
+.footer_content {
+    top: -100px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.footer_content2 {
+    top: -265px;
+    left: 300px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.redes img{
+    width: 25px;
+    height: auto;
+}
+
+.footer p{
+    text-align: justify;
+    position: relative;
+    top: -250px;
+    width: 1000px;
+    left: 450px;
+}
+
+.maintitle{
+    color: red;
+    position: relative;
+    left: 120px;
+    top: 100px;   
+}
+
+.platillos{
+    top: 200px;
+    position: relative;
+    left: 180px;
+}
+
+.frase{
+    top: 100px;
+    position: relative;
+    left: 100px;
+    width: 1600px;
+}
+
+.span{
+    top: 85px;
+    left: 675px;
+    position: relative;
+}
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_tacos {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_tacos p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 450px;
+    padding: 8px;
+    left: 10px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_tacos {
+    text-decoration: none; /* Elimina el subrayado del enlace */ 
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    
+  }
+
+  .enlace_imagen_tacos img{
+    height: auto;
+    width: 480px;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_papa {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_papa p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 420px;
+    padding: 8px;
+    left: 25px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_papa {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_papa img{
+    height: auto;
+    width: 480px;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_pollo {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_pollo p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 360px;
+    padding: 8px;
+    left: 55px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_pollo {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 100px;
+    position: relative;
+  }
+
+  .enlace_imagen_pollo img{
+    height: auto;
+    width: 480px;
+  }
+
+  /* Estilo del cuadro con fondo de color */
+  .cuadro_color_pechuga {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_pechuga p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 360px;
+    padding: 8px;
+    left: 60px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_pechuga {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    
+  }
+
+  .enlace_imagen_pechuga img{
+    height: auto;
+    width: 480px;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_salpicon {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_salpicon p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 210px;
+    padding: 8px;
+    left: 120px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_salpicon {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_salpicon img{
+    height: auto;
+    width: 480px;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_enchiladas {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_enchiladas p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 210px;
+    padding: 8px;
+    left: 125px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_enchiladas {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 100px;
+    position: relative;
+  }
+
+  .enlace_imagen_enchiladas img{
+    
+    width: 480px;
+  }
+
+  /* Estilo del cuadro con fondo de color */
+  .cuadro_color_res {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_res p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 300px;
+    padding: 8px;
+    left: 70px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_res {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: -1px;
+    position: relative;
+  }
+
+  .enlace_imagen_res img{
+    width: 480px;
+    height: 478px;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_milanesa {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_milanesa p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 270px;
+    padding: 8px;
+    left: 85px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_milanesa {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_milanesa img{
+    width: 480px;
+    height: auto;
+  }
+
+  /* Estilo del cuadro con fondo de color */
+  .cuadro_color_empanizado {
+    background-color: #fecb00; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_empanizado p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    width: 210px;
+    padding: 8px;
+    left: 125px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_empanizado {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 100px;
+    position: relative;
+  }
+
+  .enlace_imagen_empanizado img{
+    height: auto;
+    width: 480px;
+  }
+
+  .selectContainer{
+    position: relative;
+    left: 1450px;
+    top: 250px;
+  }
+
+
+#pageSelect {
+  /* Otros estilos existentes para el select */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+
+  /* Nuevos estilos para mover el select hacia la derecha */
+  position: relative;
+  left: 500px; /* Ajusta esta propiedad según la cantidad de desplazamiento deseada */
+}
+
+
+/* Estilos para los options dentro del select */
+#pageSelect option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilo cuando el select está enfocado (haciendo clic o seleccionando) */
+#pageSelect:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+#pageSelect {
+  /* Otros estilos existentes para el select */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+
+  /* Nuevos estilos para mover el select hacia la derecha */
+  position: relative;
+  left: 500px; /* Ajusta esta propiedad según la cantidad de desplazamiento deseada */
+}
+
+
+/* Estilos para los options dentro del select */
+#pageSelect option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilo cuando el select está enfocado (haciendo clic o seleccionando) */
+#pageSelect:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.selector{
+  position: relative;
+  top: -35px;
+}
+
+.modal {
+  /* Estilos para el modal de la imagen ampliada */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.imagen_ampliada {
+  /* Estilos para la imagen ampliada dentro del modal */
+  max-width: 90%; /* Limita el ancho de la imagen dentro del modal */
+  max-height: 90%; /* Limita la altura de la imagen dentro del modal */
+}
+
+.closeButton{
+    position: relative;
+    left: 1000px;
+    top: -300px;
+    font-size: 30px;
+}
+
+.prevButton{
+    position: relative;
+    right: 900px;
+    font-size: 30px;
+}
+
+.nextButton{
+    position: relative;
+    left: 100px;
+    font-size: 30px;
+}
+
+.modalImage{
+    position: relative;
+    left: 200px;
+}
+
+.mover{
+    position: relative;
+    color: #fff;
+    top: 400px;
+    right: 330px;
+}
+
+.simbologia{
+    position: relative;
+    top: 260px;
+    left: 260px;
+}
+
+.simbologia ul {
+    /* Quita los estilos de lista predeterminados */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Cambia la visualización a flexbox para alinear horizontalmente */
+}
+
+.simbologia li {
+    /* Estilo para cada elemento de lista */
+    margin-right: 20px; /* Espacio entre elementos (ajusta según necesites) */
+}
+
+.simbologia img {
+    /* Estilo para las imágenes */
+    max-width: 50px; /* Tamaño máximo de la imagen (ajusta según necesites) */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.simbologia p {
+    /* Estilo para los párrafos de texto */
+    margin-top: 5px; /* Espacio entre la imagen y el texto (ajusta según necesites) */
+    position: relative;
+}
+
+.pasosmdd {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 20px;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+
+.pasosmdd i{
+background-color: red;
+border-radius: 5px;
+}
+
+.pasosmdd2 {
+display: inline-block;
+width: 25%;
+margin-bottom: 20px;
+position: relative;
+top: 105px;
+left: 705px;
+}
+
+.pasosmdd2 i{
+background-color: red;
+border-radius: 5px;
+}
+
+.pasosmdd3 {
+display: inline-block;
+width: 30%;
+margin-bottom: 20px;
+position: relative;
+top: 25px;
+left: 1260px;
+}
+
+.pasosmdd3 i{
+background-color: red;
+border-radius: 5px;
+}
+
+.selector{
+  position: relative;
+  top: 20px;
+}

@@ -1,0 +1,485 @@
+.contenedor{
+    background-color: red;
+    width: 1950px;
+    right: -5px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.pagina {
+    height: 100vh; /* Establece un alto mínimo del 100% del alto de la ventana */
+    display: flex; /* Para asegurarse de que ocupe todo el alto si el contenido no es suficiente */
+    flex-direction: column; /* Para alinear el contenido de arriba a abajo */
+}  
+
+.header{
+    height: 200px;
+}
+
+.logos{
+    position: relative;
+    left: 250px;
+    top: 3px;
+    width: 90px;
+}
+
+/* ejemplo.module.css */
+
+/* Estilo para la lista desordenada */
+.listaDesordenada {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    position: relative;
+    left: 360px;
+    top: -45px;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  .listaDesordenada li {
+    margin-right: 20px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  .listaDesordenada li a {
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-weight: bold; /* Estilo de fuente en negrita */
+  }
+
+  .search_container {
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    position: relative;
+    left: 1200px;
+  }
+  
+  .mySearchBar {
+    padding: 10px 30px 10px 10px; /* Ajusta los valores de padding según tu diseño */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  .search_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888; /* Cambia el color del icono según tus preferencias */
+    font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+  }
+
+  .boton{
+    background-color: rebeccapurple;
+    border-radius: 7px;
+    position: relative;
+    top: -80px;
+    width: 150px;
+    left: 1250px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.instagram{
+    position: relative;
+    width: 50px;
+    left: 1300px;
+    top: -70px;
+}
+
+.footer {
+    background-color: #484848;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: 420px;
+    position: relative;
+    border: 1px solid black;
+    width: 1963px;
+    right: 10px;
+    height: 250px;
+}
+
+.footer_images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_images img {
+    width: 100px;
+    height: auto;
+    left: 350px;
+    position: relative;
+}
+
+.footer_content {
+    top: -100px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.footer_content2 {
+    top: -265px;
+    left: 300px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 800px; 
+    text-align: justify;
+}
+
+.redes img{
+    width: 25px;
+    height: auto;
+}
+
+.footer p{
+    text-align: justify;
+    position: relative;
+    top: -250px;
+    width: 1000px;
+    left: 450px;
+}
+
+.maintitle{
+    color: red;
+    position: relative;
+    left: 120px;
+    top: 100px;
+    
+}
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color {
+    background-color: #f7931d; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+.cuadro_color p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 120px;
+    padding: 8px;
+    left: 177px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+.enlace_imagen {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    
+  }
+
+.enlace_imagen img{
+    width: 480px;
+    height: auto;
+  }
+  
+  .platillos{
+    top: 200px;
+    position: relative;
+    left: 200px;
+}
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_comidas {
+    background-color: #ee1c2d; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_comidas p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 200px;
+    padding: 8px;
+    left: 135px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_comidas {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_comidas img{
+    width: 480px;
+    height: auto;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_kids {
+    background-color: #81014c; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_kids p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 150px;
+    padding: 8px;
+    left: 145px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_kids {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 100px;
+    position: relative;
+  }
+
+  .enlace_imagen_kids img{
+    width: 480px;
+    height: auto;
+  }
+
+  /* Estilo del cuadro con fondo de color */
+.cuadro_color_mexico {
+    background-color: #ed2089; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_mexico p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 390px;
+    padding: 8px;
+    left: 40px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_mexico {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: -1px;
+    position: relative;
+  }
+
+  .enlace_imagen_mexico img{
+    width: 480px;
+    height: auto;
+  }
+
+    /* Estilo del cuadro con fondo de color */
+.cuadro_color_clasicos {
+    background-color: #ff7503; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_clasicos p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 240px;
+    padding: 8px;
+    left: 105px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_clasicos {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_clasicos img{
+    width: 480px;
+    height: auto;
+  }
+
+      /* Estilo del cuadro con fondo de color */
+.cuadro_color_dia {
+    background-color: #d60f16; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_dia p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 180px;
+    padding: 8px;
+    left: 135px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_dia {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 100px;
+    position: relative;
+  }
+
+  .enlace_imagen_dia img{
+    width: 480px;
+    height: auto;
+  }
+
+/* Estilo del cuadro con fondo de color */
+.cuadro_color_experiencia {
+    background-color: #007ee9; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_experiencia p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 270px;
+    padding: 8px;
+    left: 85px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_experiencia {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: -1px;
+    position: relative;
+  }
+
+  .enlace_imagen_experiencia img{
+    width: 480px;
+    height: auto;
+  }
+
+  /* Estilo del cuadro con fondo de color */
+.cuadro_color_cuenta {
+    background-color: #ff6600; /* Cambia el color de fondo según tus preferencias */
+    padding: 8px; /* Espaciado interno alrededor del cuadro */
+    text-align: center; /* Alineación del texto al centro */
+    position: relative;
+    top: -5px;
+  }
+  
+  /* Estilo del texto dentro del cuadro */
+  .cuadro_color_cuenta p {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold; /* Opciones de estilo de fuente */
+    border: 1px solid #fff;
+    width: 240px;
+    padding: 8px;
+    left: 105px;
+    position: relative;
+  }
+  
+  /* Estilo del enlace */
+  .enlace_imagen_cuenta {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    left: 50px;
+    position: relative;
+  }
+
+  .enlace_imagen_cuenta img{
+    width: 480px;
+    height: auto;
+  }
+
+.legales{
+    top: 300px;
+    left: 100px;
+    position: relative;
+}
+
+.informacion{
+    font-size: 20px;
+}
+
+.contenidoLegales{
+    width: 1750px;
+}
+
+.contenidoLegales p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.selectContainer{
+  position: relative;
+  left: 1450px;
+  top: 250px;
+}
+
+
+#pageSelect {
+/* Otros estilos existentes para el select */
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #fff;
+color: #333;
+width: 100%;
+max-width: 300px;
+cursor: pointer;
+
+/* Nuevos estilos para mover el select hacia la derecha */
+position: relative;
+left: 500px; /* Ajusta esta propiedad según la cantidad de desplazamiento deseada */
+}
+
+
+/* Estilos para los options dentro del select */
+#pageSelect option {
+padding: 10px;
+font-size: 16px;
+}
+
+/* Estilo cuando el select está enfocado (haciendo clic o seleccionando) */
+#pageSelect:focus {
+outline: none;
+border-color: #007bff;
+}
